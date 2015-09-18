@@ -248,8 +248,36 @@
                     <view key="view" contentMode="scaleToFill" id="wAq-a8-eh3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="7XJ-2q-0Jv">
+                                <rect key="frame" x="108" y="139" width="300" height="300"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="l8c-pQ-9uh">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Steps-0" translatesAutoresizingMaskIntoConstraints="NO" id="To0-jv-EP4">
+                                                <rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
+                                            </imageView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="To0-jv-EP4" firstAttribute="centerX" secondItem="l8c-pQ-9uh" secondAttribute="centerX" id="oiS-yS-Rb1"/>
+                                            <constraint firstItem="To0-jv-EP4" firstAttribute="centerY" secondItem="l8c-pQ-9uh" secondAttribute="centerY" id="sD7-tO-H7w"/>
+                                        </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="oiS-yS-Rb1"/>
+                                                <exclude reference="sD7-tO-H7w"/>
+                                            </mask>
+                                        </variation>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="circleBar" destination="To0-jv-EP4" id="8BE-mE-EuK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HBP-df-fmN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -272,4 +300,7 @@
             <point key="canvasLocation" x="41" y="-96"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Steps-0" width="300" height="300"/>
+    </resources>
 </document>
