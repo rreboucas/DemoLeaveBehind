@@ -10,9 +10,7 @@ import Foundation
 import UIKit
 import EventKit
 
-class CustomTableViewCell : UITableViewCell {
-    
-}
+
 
 
 class SecondTableViewController: UITableViewController {
@@ -75,7 +73,6 @@ class SecondTableViewController: UITableViewController {
     }
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        //return SecondTableArray.count
         return eventsList.count
     }
     
@@ -96,14 +93,6 @@ class SecondTableViewController: UITableViewController {
         Cell.SeconDaryTitle.text = dateString
         Cell.acsImage.image = UIImage(named: "calendar.png")
 
-        /*Cell.MainTitle.text = event.title as! String
-        Cell.SecondBelowMainTitle.text = event.startDate.description as! String
-        Cell.ThirdSideWaysTitle.text = event.startDate.description as! String
-        */
-        //var image = UIImage(named: "calendar.png")
-        //Cell.acsImage.image = UIImage(named: "calendar.png")
-        //Cell.imagem.image = UIImage(named: "calendar.png")
-        //Cell.textLabel?.text = event.title as! String
         
         return Cell
     }
@@ -117,4 +106,22 @@ class SecondTableViewController: UITableViewController {
         return userCalendar.dateByAddingComponents(components, toDate: currentDate, options: calOptions) as NSDate?
         
     }
+    
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        var indexPath : NSIndexPath = self.tableView.indexPathForSelectedRow!
+        var indexNum = indexPath.item
+        
+        var DestViewController = segue.destinationViewController as! ThirdTableViewController
+        
+        var eventToSend = eventsList[indexNum]
+        var eventAttendees = eventToSend.attendees as [EKParticipant]?
+        
+        var TrialUpdated = self.TrialChosen
+        TrialUpdated.attendees = eventAttendees
+        
+        DestViewController.TrialChosen = TrialUpdated
+    }
+    
 }

@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		796AE22648B2EB4542680B26 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB88FDA5409721E6A8DA0C6 /* libPods.a */; };
 		F91D0ED41BAC89A5008A4603 /* EventCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91D0ED31BAC89A5008A4603 /* EventCustomCell.swift */; };
+		F91D0ED61BAC917A008A4603 /* ThirdTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91D0ED51BAC917A008A4603 /* ThirdTableViewController.swift */; };
+		F91D0ED81BAC95F8008A4603 /* AttendeeCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91D0ED71BAC95F8008A4603 /* AttendeeCustomCell.swift */; };
+		F91D0EDA1BAC974A008A4603 /* contact3.png in Resources */ = {isa = PBXBuildFile; fileRef = F91D0ED91BAC974A008A4603 /* contact3.png */; };
 		F92A70301BAC7A1A00BCB41A /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = F92A702F1BAC7A1A00BCB41A /* calendar.png */; };
 		F9A1C66C1BA865090017FB25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A1C66B1BA865090017FB25 /* AppDelegate.swift */; };
 		F9A1C66E1BA865090017FB25 /* FirstTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A1C66D1BA865090017FB25 /* FirstTableViewController.swift */; };
@@ -27,6 +30,9 @@
 		3121EA29D73B0601F44D6634 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		EDB88FDA5409721E6A8DA0C6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F91D0ED31BAC89A5008A4603 /* EventCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventCustomCell.swift; sourceTree = "<group>"; };
+		F91D0ED51BAC917A008A4603 /* ThirdTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdTableViewController.swift; sourceTree = "<group>"; };
+		F91D0ED71BAC95F8008A4603 /* AttendeeCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttendeeCustomCell.swift; sourceTree = "<group>"; };
+		F91D0ED91BAC974A008A4603 /* contact3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contact3.png; sourceTree = "<group>"; };
 		F92A702F1BAC7A1A00BCB41A /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar.png; sourceTree = "<group>"; };
 		F9A1C6681BA865090017FB25 /* DemoLeaveBehind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoLeaveBehind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9A1C66B1BA865090017FB25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -94,10 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				F92A702F1BAC7A1A00BCB41A /* calendar.png */,
+				F91D0ED91BAC974A008A4603 /* contact3.png */,
 				F9A62FB51BA87D6500D3F4D1 /* DemoLeaveBehind-BridgingHeader.h */,
 				F9A1C66B1BA865090017FB25 /* AppDelegate.swift */,
 				F9A1C66D1BA865090017FB25 /* FirstTableViewController.swift */,
 				F9A1C67D1BA869D90017FB25 /* SecondTableViewController.swift */,
+				F91D0ED51BAC917A008A4603 /* ThirdTableViewController.swift */,
 				F9A1C66F1BA865090017FB25 /* Main.storyboard */,
 				F9A1C6721BA865090017FB25 /* Assets.xcassets */,
 				F9A1C6741BA865090017FB25 /* LaunchScreen.storyboard */,
@@ -107,6 +115,7 @@
 				F9F826371BAA10A3005D7CF1 /* LoginScreenController.swift */,
 				F9A535E71BAC6124006E293B /* Trial.swift */,
 				F91D0ED31BAC89A5008A4603 /* EventCustomCell.swift */,
+				F91D0ED71BAC95F8008A4603 /* AttendeeCustomCell.swift */,
 			);
 			path = DemoLeaveBehind;
 			sourceTree = "<group>";
@@ -174,6 +183,7 @@
 				F92A70301BAC7A1A00BCB41A /* calendar.png in Resources */,
 				F9A1C6731BA865090017FB25 /* Assets.xcassets in Resources */,
 				F9A1C6711BA865090017FB25 /* Main.storyboard in Resources */,
+				F91D0EDA1BAC974A008A4603 /* contact3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,10 +231,12 @@
 				F9A1C6801BA86C270017FB25 /* SecondTable.swift in Sources */,
 				F9A1C66E1BA865090017FB25 /* FirstTableViewController.swift in Sources */,
 				F9A62FB71BA88DFA00D3F4D1 /* SecondViewController.swift in Sources */,
+				F91D0ED81BAC95F8008A4603 /* AttendeeCustomCell.swift in Sources */,
 				F9A1C67E1BA869D90017FB25 /* SecondTableViewController.swift in Sources */,
 				F91D0ED41BAC89A5008A4603 /* EventCustomCell.swift in Sources */,
 				F9A1C66C1BA865090017FB25 /* AppDelegate.swift in Sources */,
 				F9F826381BAA10A3005D7CF1 /* LoginScreenController.swift in Sources */,
+				F91D0ED61BAC917A008A4603 /* ThirdTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
