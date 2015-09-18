@@ -12,6 +12,8 @@
 		F91D0ED61BAC917A008A4603 /* ThirdTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91D0ED51BAC917A008A4603 /* ThirdTableViewController.swift */; };
 		F91D0ED81BAC95F8008A4603 /* AttendeeCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91D0ED71BAC95F8008A4603 /* AttendeeCustomCell.swift */; };
 		F91D0EDA1BAC974A008A4603 /* contact3.png in Resources */ = {isa = PBXBuildFile; fileRef = F91D0ED91BAC974A008A4603 /* contact3.png */; };
+		F91D0EDC1BACA3FB008A4603 /* ConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91D0EDB1BACA3FB008A4603 /* ConfirmationViewController.swift */; };
+		F91D0EDE1BACA5F9008A4603 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91D0EDD1BACA5F9008A4603 /* AnimationViewController.swift */; };
 		F92A70301BAC7A1A00BCB41A /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = F92A702F1BAC7A1A00BCB41A /* calendar.png */; };
 		F9A1C66C1BA865090017FB25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A1C66B1BA865090017FB25 /* AppDelegate.swift */; };
 		F9A1C66E1BA865090017FB25 /* FirstTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A1C66D1BA865090017FB25 /* FirstTableViewController.swift */; };
@@ -33,6 +35,8 @@
 		F91D0ED51BAC917A008A4603 /* ThirdTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdTableViewController.swift; sourceTree = "<group>"; };
 		F91D0ED71BAC95F8008A4603 /* AttendeeCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttendeeCustomCell.swift; sourceTree = "<group>"; };
 		F91D0ED91BAC974A008A4603 /* contact3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contact3.png; sourceTree = "<group>"; };
+		F91D0EDB1BACA3FB008A4603 /* ConfirmationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmationViewController.swift; sourceTree = "<group>"; };
+		F91D0EDD1BACA5F9008A4603 /* AnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
 		F92A702F1BAC7A1A00BCB41A /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar.png; sourceTree = "<group>"; };
 		F9A1C6681BA865090017FB25 /* DemoLeaveBehind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoLeaveBehind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9A1C66B1BA865090017FB25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +110,8 @@
 				F9A1C66D1BA865090017FB25 /* FirstTableViewController.swift */,
 				F9A1C67D1BA869D90017FB25 /* SecondTableViewController.swift */,
 				F91D0ED51BAC917A008A4603 /* ThirdTableViewController.swift */,
+				F91D0EDB1BACA3FB008A4603 /* ConfirmationViewController.swift */,
+				F91D0EDD1BACA5F9008A4603 /* AnimationViewController.swift */,
 				F9A1C66F1BA865090017FB25 /* Main.storyboard */,
 				F9A1C6721BA865090017FB25 /* Assets.xcassets */,
 				F9A1C6741BA865090017FB25 /* LaunchScreen.storyboard */,
@@ -230,7 +236,9 @@
 				F9A535E81BAC6124006E293B /* Trial.swift in Sources */,
 				F9A1C6801BA86C270017FB25 /* SecondTable.swift in Sources */,
 				F9A1C66E1BA865090017FB25 /* FirstTableViewController.swift in Sources */,
+				F91D0EDE1BACA5F9008A4603 /* AnimationViewController.swift in Sources */,
 				F9A62FB71BA88DFA00D3F4D1 /* SecondViewController.swift in Sources */,
+				F91D0EDC1BACA3FB008A4603 /* ConfirmationViewController.swift in Sources */,
 				F91D0ED81BAC95F8008A4603 /* AttendeeCustomCell.swift in Sources */,
 				F9A1C67E1BA869D90017FB25 /* SecondTableViewController.swift in Sources */,
 				F91D0ED41BAC89A5008A4603 /* EventCustomCell.swift in Sources */,
