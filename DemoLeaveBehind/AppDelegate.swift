@@ -9,7 +9,7 @@
 import UIKit
 import CoreData
 
-
+let templtHelper: TrialTemplateHelper = TrialTemplateHelper()
 let RemoteAccessConsumerKey = "3MVG9SemV5D80oBe_O4cXHa0F86AARqRtdUc5qflyc4Dk_vVTeydccxd4rUAuIvzFpehR_uFwhwSNvqzTG0.b";
 let OAuthRedirectURI = "testsfdc://oauth/success";
 let scopes = ["api"];
