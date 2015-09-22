@@ -37,7 +37,7 @@ class FirstTableViewController: UITableViewController, SFRestDelegate{
         var sharedInstance = SFRestAPI.sharedInstance()
         
         
-        var request = sharedInstance.requestForQuery("SELECT Id,name, lc_trialforce__Template_Logo__c, lc_trialforce__Active__c,lc_trialforce__Application_Logo__c,lc_trialforce__Connected_App_Callback_URL__c,lc_trialforce__Connected_App_Consumer_Key__c,lc_trialforce__Signup_Email_Suppressed__c,lc_trialforce__Subdomain__c,lc_trialforce__Trialforce_Template_ID__c,lc_trialforce__Version__c FROM lc_trialforce__Trial_App_Template__c WHERE lc_trialforce__Active__c = 'True' ORDER BY Name, lc_trialforce__Version__c")
+        var request = sharedInstance.requestForQuery("SELECT Id,name, lc_trialforce__Template_Logo__c, lc_trialforce__Country_Code__c, lc_trialforce__Active__c,lc_trialforce__Application_Logo__c,lc_trialforce__Connected_App_Callback_URL__c,lc_trialforce__Connected_App_Consumer_Key__c,lc_trialforce__Signup_Email_Suppressed__c,lc_trialforce__Subdomain__c,lc_trialforce__Trialforce_Template_ID__c,lc_trialforce__Version__c FROM lc_trialforce__Trial_App_Template__c WHERE lc_trialforce__Active__c = 'True' ORDER BY Name, lc_trialforce__Version__c")
         
         
         
@@ -69,11 +69,12 @@ class FirstTableViewController: UITableViewController, SFRestDelegate{
                     userName: nil,
                     trialTemplateID: obj.objectForKey("lc_trialforce__Trialforce_Template_ID__c") as! String?,
                     companyName: nil,
-                    countryCode: nil,
+                    countryCode: obj.objectForKey("lc_trialforce__Country_Code__c") as! String?,
                     connectedAppCallBackURL: obj.objectForKey("lc_trialforce__Connected_App_Callback_URL__c") as? String,
                     signupEmailSuppressed: obj.objectForKey("lc_trialforce__Signup_Email_Suppressed__c") as! Bool?,
                     connectedAppConsummerKey: obj.objectForKey("lc_trialforce__Connected_App_Consumer_Key__c") as? String,
                     subdomain: obj.objectForKey("lc_trialforce__Subdomain__c") as? String,
+                    version: obj.objectForKey("lc_trialforce__Version__c") as? String,
                     attendees: nil
                 
                 )
@@ -95,21 +96,39 @@ class FirstTableViewController: UITableViewController, SFRestDelegate{
 
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        var Cell = self.tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as UITableViewCell
+        var Cell = self.tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as! TrialCustomCell
         
         var obj : AnyObject! =  dataRows.objectAtIndex(indexPath.row)
         var name = obj.objectForKey("Name") as! String
-        Cell.textLabel!.text = obj.objectForKey("Name") as! String
         
-        Cell.accessoryType = UITableViewCellAccessoryType.DisclosureIndicator
+        Cell.TrialName.text = obj.objectForKey("Name") as! String
+        
+        //Cell.textLabel!.text = obj.objectForKey("Name") as! String
+        
+        //Cell.accessoryType = UITableViewCellAccessoryType.DisclosureIndicator
         
         var imgbyte = obj.objectForKey("lc_trialforce__Template_Logo__c") as! String
         var imgCru = NSData(base64EncodedString: imgbyte, options: NSDataBase64DecodingOptions())
         
         var img: UIImage = UIImage(data: imgCru!)!
-        Cell.imageView?.image = resizeImage(img, toTheSize: CGSize(width: 70, height: 50))
-        Cell.imageView?.clipsToBounds = true
-        Cell.imageView?.contentMode = UIViewContentMode.ScaleAspectFit
+        
+        Cell.TrialImage.image = img
+        
+        Cell.TrialVersion.text = obj.objectForKey("lc_trialforce__Version__c") as! String
+        
+        Cell.TrialCountryFlag.image = UIImage(named: "US.png")
+        
+        var countryCode = obj.objectForKey("lc_trialforce__Country_Code__c") as! String
+        if countryCode.isEmpty
+        {
+            countryCode = "US"
+        }
+        
+        Cell.TrialLanguage.text = templtHelper.getLanguage(countryCode)
+        
+        //Cell.imageView?.image = resizeImage(img, toTheSize: CGSize(width: 70, height: 50))
+        //Cell.imageView?.clipsToBounds = true
+        //Cell.imageView?.contentMode = UIViewContentMode.ScaleAspectFit
         
         
         //Cell.textLabel?.text = FirstTableArray[indexPath.row]

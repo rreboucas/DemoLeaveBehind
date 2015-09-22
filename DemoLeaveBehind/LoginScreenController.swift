@@ -35,6 +35,15 @@ class LoginScreenController: UIViewController, SFAuthenticationManagerDelegate {
         }
     }
     
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        if segue.identifier == "history" {
+            let vc = segue.destinationViewController as UIViewController
+            vc.navigationItem.title = "Trial Request History"
+            navigationItem.title = "Home"
+        }
+    }
+    
     
     
 }
