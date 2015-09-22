@@ -194,16 +194,16 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HSZ-07-Kkf">
-                                            <rect key="frame" x="20" y="10" width="24" height="22"/>
+                                            <rect key="frame" x="20" y="10" width="24" height="26"/>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t0j-3q-6BA">
-                                            <rect key="frame" x="59" y="7" width="497" height="21"/>
+                                            <rect key="frame" x="59" y="8" width="497" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wCP-jh-l9v">
-                                            <rect key="frame" x="59" y="21" width="497" height="21"/>
+                                            <rect key="frame" x="59" y="22" width="497" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                             <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
@@ -226,7 +226,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a2x-2i-IlP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="875" y="640"/>
+            <point key="canvasLocation" x="874.5" y="639.5"/>
         </scene>
         <!--Animation View Controller-->
         <scene sceneID="qQE-iI-FfU">
@@ -315,7 +315,7 @@
                                     <outlet property="CreatedDate" destination="PmM-0K-gnB" id="eCc-2c-NLX"/>
                                     <outlet property="TrialName" destination="Nxk-rd-PBd" id="knA-oV-KLG"/>
                                     <outlet property="TrialStatusImage" destination="B0v-FP-kYA" id="1EI-AG-D4J"/>
-                                    <segue destination="vR4-FS-Igp" kind="show" id="xuH-z6-P7M"/>
+                                    <segue destination="vR4-FS-Igp" kind="show" identifier="detail" id="xuH-z6-P7M"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -324,10 +324,17 @@
                             <outlet property="delegate" destination="fFF-sa-POR" id="Oaf-CN-efr"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="R06-7f-avt"/>
+                    <navigationItem key="navigationItem" id="R06-7f-avt">
+                        <barButtonItem key="leftBarButtonItem" title="Home" id="A1q-yg-TYF">
+                            <connections>
+                                <segue destination="kh9-wO-Uk9" kind="unwind" unwindAction="unwindToHome:" id="Ye7-Bl-gSf"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vbj-zi-zQU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="kh9-wO-Uk9" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="-93" y="-573"/>
         </scene>
@@ -531,6 +538,6 @@
         <image name="Steps-100" width="300" height="300"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="kVd-hd-ke4"/>
+        <segue reference="TQm-gw-kBp"/>
     </inferredMetricsTieBreakers>
 </document>

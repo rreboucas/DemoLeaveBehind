@@ -19,7 +19,7 @@ class LoginScreenController: UIViewController, SFAuthenticationManagerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //SalesforceSDKManager.sharedManager().launch()
+        SalesforceSDKManager.sharedManager().launch()
     }
     
     func authManagerDidAuthenticate(manager: SFAuthenticationManager!, credentials: SFOAuthCredentials!, authInfo info: SFOAuthInfo!) {
@@ -42,6 +42,10 @@ class LoginScreenController: UIViewController, SFAuthenticationManagerDelegate {
             vc.navigationItem.title = "Trial Request History"
             navigationItem.title = "Home"
         }
+    }
+    
+    @IBAction func unwindToHome(segue: UIStoryboardSegue) {
+        print("Got here")
     }
     
     
