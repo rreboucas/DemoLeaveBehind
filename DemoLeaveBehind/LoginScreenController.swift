@@ -19,6 +19,10 @@ class LoginScreenController: UIViewController, SFAuthenticationManagerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // Set Navigation back button for next view
+        let backItem = UIBarButtonItem(title: "", style: .Bordered, target: nil, action: nil)
+        navigationItem.backBarButtonItem = backItem
+        
         SalesforceSDKManager.sharedManager().launch()
     }
     

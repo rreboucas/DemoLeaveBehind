@@ -17,6 +17,26 @@
 		F92A70301BAC7A1A00BCB41A /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = F92A702F1BAC7A1A00BCB41A /* calendar.png */; };
 		F947ADCE1BAE010C00963151 /* TrialTemplateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F947ADCD1BAE010C00963151 /* TrialTemplateHelper.swift */; };
 		F947ADD01BAE13E700963151 /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F947ADCF1BAE13E700963151 /* HistoryTableViewController.swift */; };
+		F97886B31BB1E7E8008350CB /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F97886B11BB1E7E8008350CB /* Interface.storyboard */; };
+		F97886B51BB1E7E8008350CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F97886B41BB1E7E8008350CB /* Assets.xcassets */; };
+		F97886BC1BB1E7E9008350CB /* DemoLeaveBehindWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F97886BB1BB1E7E9008350CB /* DemoLeaveBehindWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F97886C31BB1E7E9008350CB /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97886C21BB1E7E9008350CB /* InterfaceController.swift */; };
+		F97886C51BB1E7E9008350CB /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97886C41BB1E7E9008350CB /* ExtensionDelegate.swift */; };
+		F97886C71BB1E7E9008350CB /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97886C61BB1E7E9008350CB /* NotificationController.swift */; };
+		F97886C91BB1E7E9008350CB /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97886C81BB1E7E9008350CB /* GlanceController.swift */; };
+		F97886CB1BB1E7E9008350CB /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97886CA1BB1E7E9008350CB /* ComplicationController.swift */; };
+		F97886CD1BB1E7E9008350CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F97886CC1BB1E7E9008350CB /* Assets.xcassets */; };
+		F97886D11BB1E7E9008350CB /* DemoLeaveBehindWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F97886AF1BB1E7E8008350CB /* DemoLeaveBehindWatch.app */; };
+		F97886DA1BB1ED57008350CB /* Trial.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A535E71BAC6124006E293B /* Trial.swift */; };
+		F97886DC1BB1F41C008350CB /* SecondInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97886DB1BB1F41C008350CB /* SecondInterfaceController.swift */; };
+		F97886DE1BB1F92A008350CB /* TrialObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97886DD1BB1F92A008350CB /* TrialObject.swift */; };
+		F97886DF1BB1F92A008350CB /* TrialObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97886DD1BB1F92A008350CB /* TrialObject.swift */; };
+		F97886E21BB1FC43008350CB /* contact3.png in Resources */ = {isa = PBXBuildFile; fileRef = F91D0ED91BAC974A008A4603 /* contact3.png */; };
+		F97886E31BB1FC44008350CB /* contact3.png in Resources */ = {isa = PBXBuildFile; fileRef = F91D0ED91BAC974A008A4603 /* contact3.png */; };
+		F97886E41BB1FC4A008350CB /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = F92A702F1BAC7A1A00BCB41A /* calendar.png */; };
+		F97886E51BB1FC4A008350CB /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = F92A702F1BAC7A1A00BCB41A /* calendar.png */; };
+		F97886E71BB1FE83008350CB /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = F97886E61BB1FE83008350CB /* calendar.png */; };
+		F97886E81BB1FE83008350CB /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = F97886E61BB1FE83008350CB /* calendar.png */; };
 		F9A1C66C1BA865090017FB25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A1C66B1BA865090017FB25 /* AppDelegate.swift */; };
 		F9A1C66E1BA865090017FB25 /* FirstTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A1C66D1BA865090017FB25 /* FirstTableViewController.swift */; };
 		F9A1C6711BA865090017FB25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9A1C66F1BA865090017FB25 /* Main.storyboard */; };
@@ -30,8 +50,51 @@
 		F9C538491BB0577E006CB820 /* TrialCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C538481BB0577E006CB820 /* TrialCustomCell.swift */; };
 		F9D842351BB166B100060C19 /* HistoryDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D842341BB166B100060C19 /* HistoryDetailController.swift */; };
 		F9D842371BB1675E00060C19 /* SignupRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D842361BB1675E00060C19 /* SignupRequest.swift */; };
+		F9ED0F3A1BB201E500AC8153 /* AttendeesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9ED0F391BB201E500AC8153 /* AttendeesController.swift */; };
 		F9F826381BAA10A3005D7CF1 /* LoginScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F826371BAA10A3005D7CF1 /* LoginScreenController.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F97886BD1BB1E7E9008350CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9A1C6601BA865090017FB25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F97886BA1BB1E7E9008350CB;
+			remoteInfo = "DemoLeaveBehindWatch Extension";
+		};
+		F97886CF1BB1E7E9008350CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9A1C6601BA865090017FB25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F97886AE1BB1E7E8008350CB;
+			remoteInfo = DemoLeaveBehindWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F97886D51BB1E7E9008350CB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F97886BC1BB1E7E9008350CB /* DemoLeaveBehindWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F97886D91BB1E7E9008350CB /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				F97886D11BB1E7E9008350CB /* DemoLeaveBehindWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1EAA4A71C27715FC7FF19413 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -46,6 +109,22 @@
 		F92A702F1BAC7A1A00BCB41A /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar.png; sourceTree = "<group>"; };
 		F947ADCD1BAE010C00963151 /* TrialTemplateHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrialTemplateHelper.swift; sourceTree = "<group>"; };
 		F947ADCF1BAE13E700963151 /* HistoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
+		F97886AF1BB1E7E8008350CB /* DemoLeaveBehindWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoLeaveBehindWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F97886B21BB1E7E8008350CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		F97886B41BB1E7E8008350CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F97886B61BB1E7E8008350CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F97886BB1BB1E7E9008350CB /* DemoLeaveBehindWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DemoLeaveBehindWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F97886C11BB1E7E9008350CB /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		F97886C21BB1E7E9008350CB /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		F97886C41BB1E7E9008350CB /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		F97886C61BB1E7E9008350CB /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		F97886C81BB1E7E9008350CB /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		F97886CA1BB1E7E9008350CB /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		F97886CC1BB1E7E9008350CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F97886CE1BB1E7E9008350CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F97886DB1BB1F41C008350CB /* SecondInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondInterfaceController.swift; sourceTree = "<group>"; };
+		F97886DD1BB1F92A008350CB /* TrialObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrialObject.swift; sourceTree = "<group>"; };
+		F97886E61BB1FE83008350CB /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar.png; sourceTree = "<group>"; };
 		F9A1C6681BA865090017FB25 /* DemoLeaveBehind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoLeaveBehind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9A1C66B1BA865090017FB25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9A1C66D1BA865090017FB25 /* FirstTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTableViewController.swift; sourceTree = "<group>"; };
@@ -62,10 +141,18 @@
 		F9C538481BB0577E006CB820 /* TrialCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrialCustomCell.swift; sourceTree = "<group>"; };
 		F9D842341BB166B100060C19 /* HistoryDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryDetailController.swift; sourceTree = "<group>"; };
 		F9D842361BB1675E00060C19 /* SignupRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupRequest.swift; sourceTree = "<group>"; };
+		F9ED0F391BB201E500AC8153 /* AttendeesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttendeesController.swift; sourceTree = "<group>"; };
 		F9F826371BAA10A3005D7CF1 /* LoginScreenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginScreenController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F97886B81BB1E7E9008350CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F9A1C6651BA865090017FB25 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -94,10 +181,49 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F97886B01BB1E7E8008350CB /* DemoLeaveBehindWatch */ = {
+			isa = PBXGroup;
+			children = (
+				F97886B11BB1E7E8008350CB /* Interface.storyboard */,
+				F97886B41BB1E7E8008350CB /* Assets.xcassets */,
+				F97886B61BB1E7E8008350CB /* Info.plist */,
+			);
+			path = DemoLeaveBehindWatch;
+			sourceTree = "<group>";
+		};
+		F97886BF1BB1E7E9008350CB /* DemoLeaveBehindWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F97886E61BB1FE83008350CB /* calendar.png */,
+				F97886C21BB1E7E9008350CB /* InterfaceController.swift */,
+				F97886C41BB1E7E9008350CB /* ExtensionDelegate.swift */,
+				F97886C61BB1E7E9008350CB /* NotificationController.swift */,
+				F97886C81BB1E7E9008350CB /* GlanceController.swift */,
+				F97886CA1BB1E7E9008350CB /* ComplicationController.swift */,
+				F97886CC1BB1E7E9008350CB /* Assets.xcassets */,
+				F97886CE1BB1E7E9008350CB /* Info.plist */,
+				F97886C01BB1E7E9008350CB /* Supporting Files */,
+				F97886DB1BB1F41C008350CB /* SecondInterfaceController.swift */,
+				F97886DD1BB1F92A008350CB /* TrialObject.swift */,
+				F9ED0F391BB201E500AC8153 /* AttendeesController.swift */,
+			);
+			path = "DemoLeaveBehindWatch Extension";
+			sourceTree = "<group>";
+		};
+		F97886C01BB1E7E9008350CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F97886C11BB1E7E9008350CB /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		F9A1C65F1BA865090017FB25 = {
 			isa = PBXGroup;
 			children = (
 				F9A1C66A1BA865090017FB25 /* DemoLeaveBehind */,
+				F97886B01BB1E7E8008350CB /* DemoLeaveBehindWatch */,
+				F97886BF1BB1E7E9008350CB /* DemoLeaveBehindWatch Extension */,
 				F9A1C6691BA865090017FB25 /* Products */,
 				2CCD100DD42748B8FD981729 /* Pods */,
 				ADA913FAF055B0ADABCF2437 /* Frameworks */,
@@ -108,6 +234,8 @@
 			isa = PBXGroup;
 			children = (
 				F9A1C6681BA865090017FB25 /* DemoLeaveBehind.app */,
+				F97886AF1BB1E7E8008350CB /* DemoLeaveBehindWatch.app */,
+				F97886BB1BB1E7E9008350CB /* DemoLeaveBehindWatch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,13 +254,13 @@
 				F91D0EDB1BACA3FB008A4603 /* ConfirmationViewController.swift */,
 				F91D0EDD1BACA5F9008A4603 /* AnimationViewController.swift */,
 				F947ADCF1BAE13E700963151 /* HistoryTableViewController.swift */,
+				F9F826371BAA10A3005D7CF1 /* LoginScreenController.swift */,
 				F9A1C66F1BA865090017FB25 /* Main.storyboard */,
 				F9A1C6721BA865090017FB25 /* Assets.xcassets */,
 				F9A1C6741BA865090017FB25 /* LaunchScreen.storyboard */,
 				F9A1C6771BA865090017FB25 /* Info.plist */,
 				F9A1C67F1BA86C270017FB25 /* SecondTable.swift */,
 				F9A62FB61BA88DFA00D3F4D1 /* SecondViewController.swift */,
-				F9F826371BAA10A3005D7CF1 /* LoginScreenController.swift */,
 				F9A535E71BAC6124006E293B /* Trial.swift */,
 				F91D0ED31BAC89A5008A4603 /* EventCustomCell.swift */,
 				F91D0ED71BAC95F8008A4603 /* AttendeeCustomCell.swift */,
@@ -147,6 +275,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		F97886AE1BB1E7E8008350CB /* DemoLeaveBehindWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F97886D61BB1E7E9008350CB /* Build configuration list for PBXNativeTarget "DemoLeaveBehindWatch" */;
+			buildPhases = (
+				F97886AD1BB1E7E8008350CB /* Resources */,
+				F97886D51BB1E7E9008350CB /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F97886BE1BB1E7E9008350CB /* PBXTargetDependency */,
+			);
+			name = DemoLeaveBehindWatch;
+			productName = DemoLeaveBehindWatch;
+			productReference = F97886AF1BB1E7E8008350CB /* DemoLeaveBehindWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		F97886BA1BB1E7E9008350CB /* DemoLeaveBehindWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F97886D21BB1E7E9008350CB /* Build configuration list for PBXNativeTarget "DemoLeaveBehindWatch Extension" */;
+			buildPhases = (
+				F97886B71BB1E7E9008350CB /* Sources */,
+				F97886B81BB1E7E9008350CB /* Frameworks */,
+				F97886B91BB1E7E9008350CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DemoLeaveBehindWatch Extension";
+			productName = "DemoLeaveBehindWatch Extension";
+			productReference = F97886BB1BB1E7E9008350CB /* DemoLeaveBehindWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 		F9A1C6671BA865090017FB25 /* DemoLeaveBehind */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9A1C67A1BA865090017FB25 /* Build configuration list for PBXNativeTarget "DemoLeaveBehind" */;
@@ -156,10 +318,12 @@
 				F9A1C6651BA865090017FB25 /* Frameworks */,
 				F9A1C6661BA865090017FB25 /* Resources */,
 				70B64E02C1048148D188C73E /* Copy Pods Resources */,
+				F97886D91BB1E7E9008350CB /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F97886D01BB1E7E9008350CB /* PBXTargetDependency */,
 			);
 			name = DemoLeaveBehind;
 			productName = DemoLeaveBehind;
@@ -172,9 +336,16 @@
 		F9A1C6601BA865090017FB25 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Salesforce Inc.";
 				TargetAttributes = {
+					F97886AE1BB1E7E8008350CB = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					F97886BA1BB1E7E9008350CB = {
+						CreatedOnToolsVersion = 7.0;
+					};
 					F9A1C6671BA865090017FB25 = {
 						CreatedOnToolsVersion = 7.0;
 					};
@@ -194,11 +365,36 @@
 			projectRoot = "";
 			targets = (
 				F9A1C6671BA865090017FB25 /* DemoLeaveBehind */,
+				F97886AE1BB1E7E8008350CB /* DemoLeaveBehindWatch */,
+				F97886BA1BB1E7E9008350CB /* DemoLeaveBehindWatch Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F97886AD1BB1E7E8008350CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F97886E21BB1FC43008350CB /* contact3.png in Resources */,
+				F97886E41BB1FC4A008350CB /* calendar.png in Resources */,
+				F97886E71BB1FE83008350CB /* calendar.png in Resources */,
+				F97886B51BB1E7E8008350CB /* Assets.xcassets in Resources */,
+				F97886B31BB1E7E8008350CB /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F97886B91BB1E7E9008350CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F97886E31BB1FC44008350CB /* contact3.png in Resources */,
+				F97886E81BB1FE83008350CB /* calendar.png in Resources */,
+				F97886E51BB1FC4A008350CB /* calendar.png in Resources */,
+				F97886CD1BB1E7E9008350CB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F9A1C6661BA865090017FB25 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -247,6 +443,22 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F97886B71BB1E7E9008350CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F97886C71BB1E7E9008350CB /* NotificationController.swift in Sources */,
+				F97886C51BB1E7E9008350CB /* ExtensionDelegate.swift in Sources */,
+				F97886CB1BB1E7E9008350CB /* ComplicationController.swift in Sources */,
+				F97886DC1BB1F41C008350CB /* SecondInterfaceController.swift in Sources */,
+				F97886C31BB1E7E9008350CB /* InterfaceController.swift in Sources */,
+				F97886DA1BB1ED57008350CB /* Trial.swift in Sources */,
+				F97886C91BB1E7E9008350CB /* GlanceController.swift in Sources */,
+				F97886DF1BB1F92A008350CB /* TrialObject.swift in Sources */,
+				F9ED0F3A1BB201E500AC8153 /* AttendeesController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F9A1C6641BA865090017FB25 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -256,6 +468,7 @@
 				F947ADCE1BAE010C00963151 /* TrialTemplateHelper.swift in Sources */,
 				F9D842371BB1675E00060C19 /* SignupRequest.swift in Sources */,
 				F9A1C66E1BA865090017FB25 /* FirstTableViewController.swift in Sources */,
+				F97886DE1BB1F92A008350CB /* TrialObject.swift in Sources */,
 				F9B020761BAE48420051D706 /* HistoryCustomCell.swift in Sources */,
 				F947ADD01BAE13E700963151 /* HistoryTableViewController.swift in Sources */,
 				F91D0EDE1BACA5F9008A4603 /* AnimationViewController.swift in Sources */,
@@ -274,7 +487,28 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		F97886BE1BB1E7E9008350CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F97886BA1BB1E7E9008350CB /* DemoLeaveBehindWatch Extension */;
+			targetProxy = F97886BD1BB1E7E9008350CB /* PBXContainerItemProxy */;
+		};
+		F97886D01BB1E7E9008350CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F97886AE1BB1E7E8008350CB /* DemoLeaveBehindWatch */;
+			targetProxy = F97886CF1BB1E7E9008350CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		F97886B11BB1E7E8008350CB /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F97886B21BB1E7E8008350CB /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		F9A1C66F1BA865090017FB25 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,6 +528,73 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		F97886D31BB1E7E9008350CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "DemoLeaveBehindWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.salesforce.DemoLeaveBehind.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		F97886D41BB1E7E9008350CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "DemoLeaveBehindWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.salesforce.DemoLeaveBehind.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		F97886D71BB1E7E9008350CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = DemoLeaveBehindWatch_Extension;
+				INFOPLIST_FILE = DemoLeaveBehindWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.salesforce.DemoLeaveBehind.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		F97886D81BB1E7E9008350CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = DemoLeaveBehindWatch_Extension;
+				INFOPLIST_FILE = DemoLeaveBehindWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.salesforce.DemoLeaveBehind.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
 		F9A1C6781BA865090017FB25 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -408,6 +709,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F97886D21BB1E7E9008350CB /* Build configuration list for PBXNativeTarget "DemoLeaveBehindWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F97886D31BB1E7E9008350CB /* Debug */,
+				F97886D41BB1E7E9008350CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F97886D61BB1E7E9008350CB /* Build configuration list for PBXNativeTarget "DemoLeaveBehindWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F97886D71BB1E7E9008350CB /* Debug */,
+				F97886D81BB1E7E9008350CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F9A1C6631BA865090017FB25 /* Build configuration list for PBXProject "DemoLeaveBehind" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

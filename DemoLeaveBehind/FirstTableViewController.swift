@@ -8,9 +8,12 @@
 
 import UIKit
 import Foundation
+import WatchConnectivity
 
-class FirstTableViewController: UITableViewController, SFRestDelegate{
+class FirstTableViewController: UITableViewController, SFRestDelegate, WCSessionDelegate{
     
+    var session: WCSession!
+    var watchDictionary = [String : AnyObject]()
     var FirstTableArray = [String]()
     var SecondArray = [SecondTable]()
     var dataRows = NSArray()
@@ -19,7 +22,10 @@ class FirstTableViewController: UITableViewController, SFRestDelegate{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //logout()
+        // Set Navigation back button for next view
+        let backItem = UIBarButtonItem(title: "", style: .Bordered, target: nil, action: nil)
+        navigationItem.backBarButtonItem = backItem
+        navigationItem.title = "Pick a Template"
         
         //FirstTableArray = ["First", "Second", "Third"]
         SecondArray = [SecondTable(secondTitle: ["FirstFirst", "SecondFirst", "ThirdFirst"] , pic: ""),
@@ -75,11 +81,40 @@ class FirstTableViewController: UITableViewController, SFRestDelegate{
                     connectedAppConsummerKey: obj.objectForKey("lc_trialforce__Connected_App_Consumer_Key__c") as? String,
                     subdomain: obj.objectForKey("lc_trialforce__Subdomain__c") as? String,
                     version: obj.objectForKey("lc_trialforce__Version__c") as? String,
-                    attendees: nil
+                    attendees: nil,
+                    trialTemplateLogo: obj.objectForKey("lc_trialforce__Template_Logo__c") as! String?
                 
                 )
                 self.lstTrials.append(theTrial)
                 count = count + 1
+            }
+            
+            print("RootViewController - checking if Watch is paired")
+            
+            if records != nil {
+                var recs:NSArray = records!
+                if (WCSession.isSupported()) {
+                    session = WCSession.defaultSession()
+                    session.delegate = self;
+                    session.activateSession()
+                    
+                    if session.paired == true{
+                        print("session.paired =  \(session.paired)")
+                        if session.watchAppInstalled == true {
+                            print("session.watchAppInstalled =  \(session.watchAppInstalled) ")
+                            do {
+                                let wDictionary = ["results" : recs]
+                                let dataExample : NSData = NSKeyedArchiver.archivedDataWithRootObject(wDictionary)
+                                watchDictionary = ["results" : dataExample]
+                                try WCSession.defaultSession().updateApplicationContext(watchDictionary)
+                            } catch {
+                                print(error)
+                            }
+                            print("sent applicationcontext from iphone to watch")
+                        }
+                    }
+                    
+                }
             }
             
             

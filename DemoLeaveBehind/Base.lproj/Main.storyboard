@@ -57,7 +57,7 @@
             </objects>
             <point key="canvasLocation" x="-737" y="-89"/>
         </scene>
-        <!--Pick a Template-->
+        <!--First Table View Controller-->
         <scene sceneID="pLC-vd-Wjm">
             <objects>
                 <tableViewController id="3bH-hD-pFk" customClass="FirstTableViewController" customModule="DemoLeaveBehind" customModuleProvider="target" sceneMemberID="viewController">
@@ -120,7 +120,7 @@
                             <outlet property="delegate" destination="3bH-hD-pFk" id="hbZ-XC-Eck"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Pick a Template" id="CgH-hN-cd3"/>
+                    <navigationItem key="navigationItem" id="hOy-4X-Fta"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xAg-Ef-Fft" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
