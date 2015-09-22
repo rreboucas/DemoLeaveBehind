@@ -28,6 +28,8 @@
 		F9A62FB71BA88DFA00D3F4D1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A62FB61BA88DFA00D3F4D1 /* SecondViewController.swift */; };
 		F9B020761BAE48420051D706 /* HistoryCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B020751BAE48420051D706 /* HistoryCustomCell.swift */; };
 		F9C538491BB0577E006CB820 /* TrialCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C538481BB0577E006CB820 /* TrialCustomCell.swift */; };
+		F9D842351BB166B100060C19 /* HistoryDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D842341BB166B100060C19 /* HistoryDetailController.swift */; };
+		F9D842371BB1675E00060C19 /* SignupRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D842361BB1675E00060C19 /* SignupRequest.swift */; };
 		F9F826381BAA10A3005D7CF1 /* LoginScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F826371BAA10A3005D7CF1 /* LoginScreenController.swift */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +60,8 @@
 		F9A62FB61BA88DFA00D3F4D1 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		F9B020751BAE48420051D706 /* HistoryCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryCustomCell.swift; sourceTree = "<group>"; };
 		F9C538481BB0577E006CB820 /* TrialCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrialCustomCell.swift; sourceTree = "<group>"; };
+		F9D842341BB166B100060C19 /* HistoryDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryDetailController.swift; sourceTree = "<group>"; };
+		F9D842361BB1675E00060C19 /* SignupRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupRequest.swift; sourceTree = "<group>"; };
 		F9F826371BAA10A3005D7CF1 /* LoginScreenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginScreenController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,6 +125,7 @@
 				F91D0ED51BAC917A008A4603 /* ThirdTableViewController.swift */,
 				F91D0EDB1BACA3FB008A4603 /* ConfirmationViewController.swift */,
 				F91D0EDD1BACA5F9008A4603 /* AnimationViewController.swift */,
+				F947ADCF1BAE13E700963151 /* HistoryTableViewController.swift */,
 				F9A1C66F1BA865090017FB25 /* Main.storyboard */,
 				F9A1C6721BA865090017FB25 /* Assets.xcassets */,
 				F9A1C6741BA865090017FB25 /* LaunchScreen.storyboard */,
@@ -131,9 +136,10 @@
 				F9A535E71BAC6124006E293B /* Trial.swift */,
 				F91D0ED31BAC89A5008A4603 /* EventCustomCell.swift */,
 				F91D0ED71BAC95F8008A4603 /* AttendeeCustomCell.swift */,
-				F947ADCF1BAE13E700963151 /* HistoryTableViewController.swift */,
 				F9B020751BAE48420051D706 /* HistoryCustomCell.swift */,
 				F9C538481BB0577E006CB820 /* TrialCustomCell.swift */,
+				F9D842341BB166B100060C19 /* HistoryDetailController.swift */,
+				F9D842361BB1675E00060C19 /* SignupRequest.swift */,
 			);
 			path = DemoLeaveBehind;
 			sourceTree = "<group>";
@@ -248,6 +254,7 @@
 				F9A535E81BAC6124006E293B /* Trial.swift in Sources */,
 				F9A1C6801BA86C270017FB25 /* SecondTable.swift in Sources */,
 				F947ADCE1BAE010C00963151 /* TrialTemplateHelper.swift in Sources */,
+				F9D842371BB1675E00060C19 /* SignupRequest.swift in Sources */,
 				F9A1C66E1BA865090017FB25 /* FirstTableViewController.swift in Sources */,
 				F9B020761BAE48420051D706 /* HistoryCustomCell.swift in Sources */,
 				F947ADD01BAE13E700963151 /* HistoryTableViewController.swift in Sources */,
@@ -257,6 +264,7 @@
 				F91D0EDC1BACA3FB008A4603 /* ConfirmationViewController.swift in Sources */,
 				F91D0ED81BAC95F8008A4603 /* AttendeeCustomCell.swift in Sources */,
 				F9A1C67E1BA869D90017FB25 /* SecondTableViewController.swift in Sources */,
+				F9D842351BB166B100060C19 /* HistoryDetailController.swift in Sources */,
 				F91D0ED41BAC89A5008A4603 /* EventCustomCell.swift in Sources */,
 				F9A1C66C1BA865090017FB25 /* AppDelegate.swift in Sources */,
 				F9F826381BAA10A3005D7CF1 /* LoginScreenController.swift in Sources */,
