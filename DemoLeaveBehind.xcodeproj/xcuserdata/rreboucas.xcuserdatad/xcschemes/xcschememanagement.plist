@@ -6,6 +6,8 @@
 	<dict>
 		<key>Complication - DemoLeaveBehindWatch.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>9</integer>
 		</dict>
@@ -16,18 +18,39 @@
 		</dict>
 		<key>DemoLeaveBehindWatch.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>6</integer>
 		</dict>
 		<key>Glance - DemoLeaveBehindWatch.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>8</integer>
 		</dict>
-		<key>Notification - DemoLeaveBehindWatch.xcscheme</key>
+		<key>Glance - TrialWatch.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
+		<key>Notification - DemoLeaveBehindWatch.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
 			<integer>7</integer>
+		</dict>
+		<key>Notification - TrialWatch.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
+		<key>TrialWatch.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -38,6 +61,11 @@
 			<true/>
 		</dict>
 		<key>F9A1C6671BA865090017FB25</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F9A7EDFE1BB33FEC00233F15</key>
 		<dict>
 			<key>primary</key>
 			<true/>

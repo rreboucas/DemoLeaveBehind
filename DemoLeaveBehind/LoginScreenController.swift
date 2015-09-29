@@ -16,6 +16,14 @@ class LoginScreenController: UIViewController, SFAuthenticationManagerDelegate {
     }
     
 
+    @IBAction func btn_Logout(sender: AnyObject) {
+        //SFUserAccountManager.sharedInstance().currentUser = SFUserAccountManager.sharedInstance().allUserAccounts[0] as! SFUserAccount;
+        //var creds: SFOAuthCredentials = SFOAuthCredentials(identifier: <#T##String!#>, clientId: <#T##String!#>, encrypted: <#T##Bool#>)
+        //var coordinator = SFOAuthCoordinator(credentials: creds)
+        //SFOAuthCoordinator.revokeAuthentication(coordinator)
+        SFAuthenticationManager.sharedManager().logout()
+        SalesforceSDKManager.sharedManager().launch()
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         
